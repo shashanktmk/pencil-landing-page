@@ -1,16 +1,5 @@
-.HeroSection{
+.hero{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-bottom: 30px;
-}
-.HeroSection .heading{
-    font-size: 30px;
-    text-align: center;
-}
-.HeroSection .tagline{
-
+    grid-template-rows: 1fr 4fr;
 }
 
-.heroImage{
-    width: 100%;
-}
