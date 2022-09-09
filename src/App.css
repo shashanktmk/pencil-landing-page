@@ -1,0 +1,48 @@
+.App {
+  background: #141414;
+  height: 100vh;
+  color: white;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 30px 15px;
+}
+.card{
+  box-shadow: #61dafb 2px 2px;
+  box-shadow: rgb(247 255 12 / 72%) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(247, 255, 12,  0.19) 0px 10px 5px, rgba(247, 255, 12,  0.23) 0px 6px 2px;
+  text-align: center;
+}
+.content{
+  
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.rating{
+  border: var(--completed) solid red
+}
+
+.rating-bar div { float:left; }
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
