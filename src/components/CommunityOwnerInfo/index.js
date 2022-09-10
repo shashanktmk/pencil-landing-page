@@ -1,7 +1,8 @@
 import "./index.css";
 export function CommunityOwnerInfo() {
   return (
-    <>
+    <div className="community-owner-section">
+      <h3>Community Owner</h3>
       <div class="person-card">
         <img
           class="person-img"
@@ -22,6 +23,6 @@ export function CommunityOwnerInfo() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

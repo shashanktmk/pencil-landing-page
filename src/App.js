@@ -1,6 +1,7 @@
 import "./App.css";
 import { HeroSection } from "./components/Hero";
 import { TextHighLightSection } from "./components/TextHighLightSection";
+import { SideNav } from "./components/SideNav";
 
 import { CommunityDescription } from "./components/CommunityDescription";
 import { CommunityOwnerInfo } from "./components/CommunityOwnerInfo";
@@ -99,7 +100,7 @@ function renderCards(categories) {
 function App() {
   return (
     <div className="App">
-      {/* <SideNav></SideNav> */}
+      <SideNav></SideNav>
       <HeroSection></HeroSection>
       <TextHighLightSection></TextHighLightSection>
       <CommunityDescription></CommunityDescription>

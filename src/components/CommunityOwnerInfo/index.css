@@ -11,6 +11,11 @@
 	 width: 100%;
 	 height: auto;
 }
+.community-owner-section{
+    text-align: center;
+    font-family: poppins;
+
+}
  .person-card .person-info {
 	 position: absolute;
 	 top: 236px;
@@ -38,6 +43,7 @@
 	 color: #f7f7f7;
 }
  .person-card .person-info .details-body {
+    
 	 padding: 10px;
 	 text-align: center;
 }

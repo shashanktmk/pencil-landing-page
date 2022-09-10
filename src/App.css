@@ -1,7 +1,7 @@
 .App {
-  background: #141414;
+  background: white;
   height: 100vh;
-  color: white;
+  color: #141414;
 }
 
 .grid{
@@ -12,23 +12,23 @@
   margin-bottom: 50px;
 }
 .card{
-  box-shadow: #61dafb 2px 2px;
-  box-shadow: rgb(247 255 12 / 72%) 1.95px 1.95px 2.6px;
-  box-shadow: rgba(240, 247, 20, 0.849) 0px 10px 5px, rgba(234, 242, 7, 0.23) 0px 10px 5px;
+  /* box-shadow: #61dafb 2px 2px; */
+  /* box-shadow: rgb(247 255 12 / 72%) 1.95px 1.95px 2.6px; */
+  box-shadow: rgba(211, 211, 207, 0.849) 0px 10px 5px, rgba(165, 165, 163, 0.23) 0px 10px 5px;
   text-align: center;
 }
 .content{
   
 }
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #141414;
 }
 .rating{
   border: var(--completed) solid red
@@ -58,14 +58,14 @@ padding-top: 10px; }
   border-style: none;
   font-size: 1.1em;
   font-weight: 800;
-  background-color: #141414;
-  color: white;
-  border-bottom:2px solid #141414 ;
+  background-color: white;
+  color: #141414;
+  border:2px solid transparent ;
 
 }
 
  .link:hover {
   /* box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.2); */
   cursor: pointer;
-  border-bottom:2px solid white ;
+  border:2px solid rgb(42, 60, 139) ;
 }
